@@ -2,6 +2,6 @@
 Пакет для описания pydantic моделей.
 """
 
-from .users import User
+from .users import User, UserRole
 
-__all__ = ["User"]
+__all__ = ["User", "UserRole"]
